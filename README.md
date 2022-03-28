@@ -1,3 +1,26 @@
+#### Setting up local dev environment
+1. Set node version to 17.4.0: `nvm use v17`
+2. Install dependencies/packages: `yarn`
+3. To run server: `yarn dev-server` 
+
+### Server
+We utilize an open source Google Maps Web Services Client Library in Node.js on our server. 
+They wrap the functionality of all maps services and provide some additional, helpful features. Google has a Cloud Client Library but these do not support interactivity with map services. 
+## Accessing Maps API
+Add your personal API key that can be generated through Google's Cloud Platform to your environment. 
+
+### Commit Conventions from Angular
+Type of commit/commit must start with one of the following:
+build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+docs: Documentation only changes
+feat: A new feature
+fix: A bug fix
+perf: A code change that improves performance
+refactor: A code change that neither fixes a bug nor adds a feature
+style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+test: Adding missing tests or correcting existing tests
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
